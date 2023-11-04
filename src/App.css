@@ -1,0 +1,13 @@
+*{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+  padding: 20px ;
+  color: azure;
+}
+
+.center{
+  text-align: center;
+}
+

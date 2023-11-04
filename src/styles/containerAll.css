@@ -1,0 +1,12 @@
+.contenedor{
+    background-color: antiquewhite;
+    width: 510px;
+    margin: 30px auto;
+    padding: 24px;
+    min-height: 410px;
+    border-radius: 10px;
+}
+
+.sub_titulo{
+    color: blue;
+}
