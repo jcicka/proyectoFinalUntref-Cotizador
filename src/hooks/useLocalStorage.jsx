@@ -8,7 +8,7 @@ const useLocalStorage = (clave, valorInicial) => {
         localStorage.setItem(clave, JSON.stringify(valorInicial));
         return valorInicial;
     };
-    const [valor, setValor] = useState(()=>obtener());
+    const [valor, setValor] = useState(obtener);
     useEffect(()=> localStorage.setItem(clave, JSON.stringify(valor)),[valor]);
     return [valor, setValor];
 };

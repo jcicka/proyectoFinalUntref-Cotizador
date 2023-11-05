@@ -1,13 +1,100 @@
 *{
   margin: 0;
   padding: 0;
+  border: none;
   box-sizing: border-box;
-}
-body{
-  min-height:100%;
-  background-color: rgb(96, 96, 200);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.center{
-  text-align: center;
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background-color: rgb(122, 221, 176);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 34, 128);
+  color:blanchedalmond;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 208, 123);
+  padding: 1rem;
+}
+
+nav a{
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(139, 22, 141);
+  color: antiquewhite;
+  border-radius: 1rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem;
+}
+form input{
+  width: 100%;
+  padding: 0 1rem;
+}
+form *{
+  outline: none;
+}
+
+p{
+  padding: 1rem;
+}
+
+form:last-child{
+  width: 100%;
+}
+form:last-child button{
+  background-color: blueviolet;
+  color: antiquewhite;
+  height: 2rem;
+  font-weight: 700;
+}
+
+button{
+  cursor: pointer;
+}
+ul{
+  width: 50vw;
+  height: 25vh;
+  max-height: 25vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+ 
+ul li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 1rem;
+  background-color: blueviolet;
 }
